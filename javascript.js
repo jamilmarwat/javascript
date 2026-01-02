@@ -8,7 +8,7 @@ const userSelection=document.querySelectorAll(".choice1")
 //const userScorePara=document.querySelector("#user-score");
 //const compScorePara=document.querySelector("#comp-score");
 
-userWin=null;
+//userWin=null;
 
 compScore1.innerText=comScore;
 userScore1.innerText=userScore;
