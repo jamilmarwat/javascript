@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+h1{
+    background-color: #081b31;
+    height: 5rem;
+    text-align: center;
+    line-height: 5rem;
+    color: white;
+}
+.choice{
+    height: 165px;
+    width:165px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.choice1{
+    height: 165px;
+    width:165px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.choices1{
+    display:flex;
+    justify-content: center;
+    gap:2rem;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+}
+
+.choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: black;
+}
+
+.score-board{
+    height:200px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+.msg-container{
+    
+    height:100px;
+    background-color:white;
+    display: center;
+    font-size: 1rem;
+    justify-content: center;
+    display:flex;
+}
+.msg-container{
+    margin-top: 5rem;
+}
+#msgs{
+    background-color:white; 
+    height : 80px;
+    width:100px;
+    color :black;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+}
+#userSelection{
+    height:100px;
+    width:100px;
+    border: 5px solid brown;
+}
+#computerSeclection{
+    height:100px;
+    width:100px;
+    border: 5px solid brown;
+
+}
+.selectionBoth{
+    height:100px;
+    background-color:white;
+    font-size: 1rem;
+    display:flex;
+    justify-content: center;
+
+}
