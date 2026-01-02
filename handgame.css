@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.choice{
+    height: 140px;
+    width: 150px;
+    border: 5px solid black;
+    align-items: center;
+    display: flex;
+    background-color:blueviolet;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 1rem;
+    border-radius: 50%;
+}
+#UserHandPara{
+    background-color: #081b31;
+   height: 2rem;
+    text-align: left;
+    line-height: 1rem;
+    color: white;
+
+}
+#paraResult
+{
+    height: 140px;
+    width: 140px;
+    object-fit: cover;
+    border-radius: 10%;
+    background-color: aqua;
+    margin-left: 0.3rem;
+}
+.choices :hover
+{
+    opacity: 0.5;
+    cursor: pointer;
+    background-color:black;
+}
+.choices{
+    height: 300px;
+    width: 50%;
+    display: flex;
+    border: 5px solid black;
+    align-items: center;
+    justify-content: center;
+    background-color:bisque;
+    
+}
+.handGame{
+    align-items: center;
+    justify-content: center;
+
+}
+img{
+    height: 140px;
+    width: 140px;
+    object-fit: cover;
+    border-radius: 60%;
+}
