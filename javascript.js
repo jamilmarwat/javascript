@@ -1,6 +1,6 @@
 let userScore=0;
 let comScore=0;
-const compScore1=document.querySelector("#comp-score");
+//const compScore1=document.querySelector("#comp-score");
 const choices=document.querySelectorAll(".choice");
 const msg=document.querySelector("#msgs");
 const userScore1=document.querySelector("#user-score");
